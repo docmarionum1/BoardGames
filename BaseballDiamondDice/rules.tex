@@ -1,0 +1,221 @@
+\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
+
+\usepackage{graphicx} % Required for including pictures
+%\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+%\usepackage{floatrow}
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+\usepackage[margin=1in, paperwidth=8.5in, paperheight=11in]{geometry}
+
+\setcounter{tocdepth}{5} %to make it appears in TOC
+\setcounter{secnumdepth}{5} %to make it numbered
+
+\linespread{1.2} % Line spacing
+
+\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+\graphicspath{{./Pictures/}} % Specifies the directory where pictures are stored
+
+\date{}
+
+\begin{document}
+
+\title{Baseball Diamond Dice}
+\maketitle
+
+\section{Introduction}
+
+Use your baseball team to score more runs than your opponent.
+
+\section{Pieces}
+
+\begin{itemize}
+	\item 1x Baseball Diamond Dice board
+	\item 32x batter cards
+	\item 5x starting pitcher cards
+	\item 9x relief pitcher cards
+	\item 16x 6-sided dice
+	\item 1x 4-sided die
+	\item 1x 10-sided die
+	\item 2x 20-sided dice
+\end{itemize}
+
+\section{The Board}
+
+The board contains the baseball diamond and 4 zones on each side for each player's cards.
+
+\subsection{Baseball Diamond}
+
+The baseball diamond has 5 zones.  In the center is the pitcher's mound, where the current pitcher is placed.  The current batter is placed on home.  As batters get hits they advance around the other bases, 1st, 2nd and 3rd.
+
+\subsection{Line-Up}
+
+The line-up zone is where each player places the deck of batters which comprise his current line-up.  The line-up deck goes face up.  The order of the line-up deck is important and may not be changed mid-game.
+
+\subsection{Bench}
+
+The bench zone is where each player keeps his current bench batters. The pile of bench batters goes face down.  A player may look through his own bench at any time during the game.  Order of this pile does not matter.
+
+\subsection{Bullpen}
+
+The bullpen zone is where each player keeps his relief pitchers. The pile of bullpen players goes face down.  A player may look through his own bullpen at any time during the game.  Order of this pile does not matter.  While a player is currently at bat, his current pitcher goes face up on top of the bullpen.
+
+\subsection{Clubhouse}
+
+The clubhouse zone is where each player keeps his cards which have been taken out of the game.  Cards placed into the clubhouse zone remain there for the rest of the game.  Either player may look through either of the clubhouse piles at any time.  Order of this pile does not matter.
+
+\section{Player Cards}
+
+There are three types of cards which represent baseball players: batters, starting pitchers and relief pitchers.  Each player card has name in the upper-left hand corner, and a label for the type of card it is on the back and in the upper-right hand corner - \textbf{B} for batters, \textbf{SP} for starting pitchers and \textbf{RP} for relief pitchers.
+
+\subsection{Batters}
+
+Each batter card has three statistics on the bottom line - \textbf{C} for contact, \textbf{P} for power and \textbf{S} for speed.  Each one of these is followed by a number which represents the players proficiency in that statistic.
+
+\subsection{Pitchers}
+
+Each pitcher has one or more abilities at the bottom of the card.  These abilities are explained in-depth in the \textbf{Abilities} section of this manual.  
+
+\section{Starting the Game}
+
+\subsection{}
+Baseball Diamond Dice is a two player game.
+
+\subsection{}
+Each player draws 11 cards from the deck of batters.  They choose 9 of those cards and put them into a pile in any order.  This will be their line-up deck.  They put it face up on their line-up zone.  The remaining two cards will be their bench and goes face down on their bench zone.
+
+\subsection{}
+Each player draws two relief pitcher cards from the deck of relief pitchers.  These two cards will be their bullpen.  They go face down on their bullpen zone.
+
+\subsection{}
+Each player draws one starting pitcher card from the deck of starting pitchers.  This card will be the first pitcher for each player.  Each player puts his starting pitcher face up on top of his bullpen pile.
+
+\subsection{}
+Each player gets a 20-sided die to serve as her score counter.
+
+\subsection{}
+The 10-sided die will serve as the innings counter.  Start it on 0.
+
+\subsection{}
+Decide who will be the first player to bat each inning.  If you are playing in one of the player's homes, he should go second.
+
+\subsection{}
+Decide how many innings you want to play.  A standard game is 9 innings but fewer may be played for a shorter game.
+
+\section{Innings}
+
+\subsection{}
+At the beginning of each inning, advance the innings die to the next number.  During each inning there are two half-innings in which each player gets a chance to bat, while the other pitches.  
+
+\subsection{Half-Inning}
+
+At the start of each half-inning, the defending player moves his current pitcher from the top of his bullpen to the pitcher's mound and the 4-sided die, which is used to track the number of outs, is set to 4.  Each half-inning is broken down into at-bats.
+
+\subsubsection{At-Bat}
+Each at-bat is broken down into six phases done in the following order: setup, pitcher substitutions, offensive substitutions, defensive abilities, offensive abilities, and hitting.
+
+\paragraph{Setup}
+During the setup phase of the at-bat, the batting player takes the next card off the top of his line-up deck and places it on home plate.
+
+\paragraph{Pitcher Substitutions}
+During the pitcher substitution phase the defending player may substitute his current pitcher for one of the pitchers in his bullpen.  The pitcher who is leaving the game goes onto the clubhouse zone.
+
+\paragraph{Offensive Substitutions}
+During the offensive substitution phase the offensive player may substitute any of the cards he currently has on the bases (including home plate) with a batter card from his bench.  The card that was substituted out goes to the clubhouse zone.
+
+\paragraph{Defensive Abilities}
+During the defensive abilities phase the player who is pitching may either activate his pitcher's ability, change his defensive alignment, or both.  \textbf{A starting pitcher's ability can be used once per inning, unless the ability says otherwise.  A relief pitcher's ability activates automatically the at-bat he comes in to play, unless the ability says otherwise.}  The defensive alignments are: normal, infield-in, infield-back, outfield-in and outfield-back.  The defensive alignment is normal by default for each at-bat unless the defending player changes it.  If it is is changed to some other alignment, it doesn't automatically stay that way for the next at-bat.  Defensive abilities are explained in the abilities section of the manual.
+
+\paragraph{Offensive Abilities}
+During the offensive abilities phase the player who is batting may use an offensive ability.  These abilities are: steal, bunt, hit-and-run and swing-for-the-fences.  These abilities are explained in the abilities section of the manual.
+
+\paragraph{Hitting}
+Once any substitutions and abilities are declared, the at-bat's result is determined in the following way:
+
+\subparagraph{Roll For Contact}
+First, the batting player rolls X 6-sided dice to determine whether the batter makes contact where X is the the batter's contact statistic.  If two or more 1s are rolled then the batter makes contact.  If zero 1s are rolled, the player strikes out.  If one 1 is rolled, the player grounds out.  If there are any baserunners when this happens, the defending player may have options with what to do.
+
+\subparagraph{Grounding out with Baserunners}
+If the batter rolls a single 1 for his contact roll then it is considered a ground out.  If there is a force play on base, then the defending player may either throw out the lead runner or attempt a double (or triple) play.  A force play is when there is a baserunner on first base or there is a player on 2nd or 3rd and all the preceding bases are also occupied.  For example, with a baserunner on 1st base, there is a force at 2nd base.  With a baserunner at 1st and 3rd, but not second, there is still only a force at 2nd.  If a baserunner is not forced to run, the player may decide to either advance the player one base or hold him to his current base.  With normal defensive alignment, a non forced player can automatically advance one base safely.  
+
+\subparagraph{Throwing out the Lead Runner}
+When throwing out the lead runner, the player furthest along the base paths that is in a force play is automatically out, but the batter who was at home still advances to 1st base and all other players who weren't thrown out also advance a base.  
+
+\subparagraph{Attempting a Double Play}
+When attempting a double (or triple) play, the defending player must choose the order of the forced bases he will throw to in descending order.  For example, with a baserunner at 1st base, he can attempt to throw to second and then to first.  Or with players on 1st and 2nd, he can throw to either 3rd then 2nd, 3rd then 1st or 2nd then 1st for a double play, or 3rd then 2nd then 1st for a triple play.  The outcome of each throw is determined by the defending player rolling X 6-sided dice and the baserunner rolling Y 6-sided dice.  X is 12 for the first base thrown to, eight for the second, and 2 for the third.  Y is the speed rating of the baserunner approaching that base.  If the defending player rolls more 1s than the baserunner, the baserunner is out.  Otherwise, the baserunner is safe.  If the defending player rolls zero 1s, he commits an error, and all baserunners who weren't thrown out advance an extra base.  As long as there wasn't an error, this process repeats for each other base the defending player decided to throw to.  
+
+\subparagraph{Roll for Power}
+If the batter made contact (rolled two or more 1st for his contact check) then he rolls for power.  The number of dice rolled is equivalent to the player's power statistic, modified by any abilities that may affect it.  The type of hit is determined by the total number of 5s and 6s rolled:  1 is a single, 2 a double, 3 a triple and 4 or more a home run.  On a single, the batter advances to 1st base and all batters advance by one base.  On a single, a baserunner on 2nd base may attempt to advance to home plate by making a speed check.  (Speed checks explained in the section on stealing.) On a double, the batter advances to 2nd and all base runners advance by two bases.  On a double, a baserunner on 1st base may attempt to advance to home plate by making a speed check.  On a triple, the batter advances to 3rd base and all baserunners advance to home plate.  On a home run, the batter and all baserunners advance to home plate.
+
+\subsubsection{Scoring}
+Whenever a baserunner reaches home plate from the base paths, he is returned to the bottom of the line-up deck and the batting player scores one run, advancing his 20-sided die counter by one.
+
+\subsubsection{Outs}
+Whenever a player gets out, the player card is returned to the bottom of the line-up deck adn the 4-sided die which tracks outs is advanced by one.  If this is the first out of the half-inning and the die is on 4, it is changed to 1.  When the die reaches 3, the half-inning is over.  All batters on the bases are returned to the bottom of their owner's line-up deck and the current pitcher is returned from the pitcher's mound to it's owners bullpen.
+
+\section{Winning the Game}
+After the decided number of innings are played, the player with the higher number of runs is the winner.  If there is a tie, additional innings are played one at a time and at the end of each inning of either player is leading he wins.
+
+\section{Abilities}
+There are three types of abilities: Pitcher abilities and defensive alignment, which both fall under defensive abilities; and offensive abilities.  These may be activated during the designated phase of the at-bat.
+
+\subsection{Pitcher Abilities}
+Each pitcher has one or more abilities.  Most abilities are \emph{activated} abilities, meaning that they only take effect for the at-bat that they are used.  Some are \emph{passive} abilities meaning that they are always in effect.  Each activated ability of a starting pitcher may be used once per inning.  The activated ability of a relief pitcher is activated for only the at-bat that the relief pitcher is substituted into the game.  It may not be used in subsequent at-bats during the rest of the game.  The abilities are as follows:
+
+\subsubsection{Strikeout}
+Strikeout is an activated ability.  When it is activated the batter rolls X fewer contact dice for the current at-bat, where X is the level of the pitcher's strikeout ability.  For example, strikeout 2 means that the batter will roll two fewer dice when rolling for contact. 
+
+\subsubsection{Curveball}
+Curveball is an activated ability.  When it is activated the batter rolls X fewer contact dice and power dice for the current at-bat, where X is the level of the pitcher's curveball ability.  For example, curveball 1 means that the batter will roll one fewer die when rolling for contact and if he makes contact, one fewer die for power.
+
+\subsubsection{Knuckleball}
+Knuckleball is an activated ability.  When it is activated the defending player rolls X dice, where X is the power of the pitcher's knuckleball ability.  If he rolls no 1s, he throws a wild pitch and walks the batter - all baserunners advance one base and the batter advances to 1st and the at-bat ends before contact is rolled.  If the defending player rolled at least one 1, then the at-bat proceeds as normal, but the batter rolls X fewer contact dice.  
+
+\subsubsection{Pickoff}
+Pickoff is an activated ability.  If there is currently a baserunner, the pitcher may attempt a pickoff on that baserunner.  The defending player rolls X dice, where X is the level of the pitcher's pickoff ability.  If he rolls at least one 1, the baserunner is out.
+
+\subsubsection{Double Play}
+Double play is a passive ability.  Whenever the defender attempts a double play, he rolls an extra X dice for each throw, where X is the level of the pitcher's double play ability.
+
+\subsubsection{Slugger}
+Slugger is a passive ability which is unique to starting pitchers.  A pitcher with this ability is a great batter as well.  At the beginning of the game you may swap this pitcher card with any of your batter cards.  This means that this pitcher card will be in your lineup and your first pitcher will be one of the batter cards you drew.  Treat this card as a normal batter for the rest of the game.  Having a batter card as your pitcher doesn't have any negative effects, but you don't have access to a starting pitcher ability each inning.
+
+\subsubsection{Closer}
+Closer is a passive ability which is unique to relief pitchers.  Closer only has any effect during the last inning of the game.  During that inning, all of the opposing player's contact rolls are reduced by X, where X is the pitchers closer level.
+ 
+\subsubsection{Continued}
+Continued is a keyword that may appear in front of abilities on relief pitchers.  A continued ability means that the ability may be activated once each inning like the abilities for starting pitchers, rather than just once when the pitcher comes into play, like normal for relief pitchers.  For example, a relief pitcher with the ability Continued Strikeout 1 may use Strikeout 1 once each inning for the rest of the innings he's in the game.  A relief pitcher can use his continued ability the same inning he comes into play, even if he has another ability which activated that inning.
+
+\subsubsection{Mustache}
+Mustache is a passive ability. This player has a \emph{bitchin'} mustache.  No effect on gameplay.
+
+\subsection{Defensive Alignment}
+There are five defensive alignments: normal, infield-in, infield-back, outfield-in and outfield-back.  By default, at the beginning of each at-bat, the defensive alignment is normal.  Any defensive alignment may be used during each at-bat without any requirements or limits.  Only one may be used at a time.
+
+\subsubsection{Infield-in}
+With the infield in, the defensive may attempt to throw out a non-forced runner on a ground out (a contact roll of one).  The player must make a speed check to reach the base safely. The non-forced throw may be the first throw as part of a double play.  For this throw, the defender rolls 8, rather than 10 dice, and he rolls 6 for the second throw.  With the infield in, a power roll of 0 is also a single.
+
+\subsubsection{Infield-back}
+With the infield-back, power rolls of 0 are singles, and when there is a power roll of 1, the batter must make a speed check at 1st base.  
+
+\subsubsection{Outfield-in}
+With the outfield moved in, power rolls of 2 are triples and anything greater than or equal to 3 is a homerun.  Players attempting to go to home plate from 2nd base roll 4 fewer dice when making their speed check.
+
+\subsubsection{Outfield-back}
+With the outfield moved back the results of the power rolls are changed.  Any number of 5s and 6s less than 4 (including 0) is a single.  If there is a baserunner on 2nd base, he automatically advances two bases to home plate on a single.
+
+\subsection{Offensive Abilities}
+There are four offensive abilities: steal, bunt, hit-and-run and swing-for-the-fences.  Steal is a seperate action that happens before the hitting phase and the other three affect the hitting phase.
+
+\subsubsection{Stealing}
+During the at-bat, a baserunner may attempt to steal the next base if it is not occupied by another baserunner.  To steal a base, the baserunner must make a \emph{speed check}.  A speed check is performed by the batter by rolling a number of dice equal to the baserunner's speed statistic.  The success of the speed check depends on the base.  A speed check on first base is successful if the batter rolls at least one 1, on 2nd base if he rolls at least two 1s, three ones for 3rd base and four ones for home plate.  If the speed check is successful, the player advances to that base.  If it is unsuccessful, the player is out.  After the stealing action is complete, the at-bat returns to the pitcher substitution phase.  
+
+\subsubsection{Bunting}
+A batter may attempt to bunt the ball.  When bunting, the batter only rolls for contact and not power.  If he rolls at least a single 1 for contact, the base runners on 1st and 2nd automatically advance one base.  A player on 3rd must make a speed check to advance to home and the batter must make a speed check to advance to 1st.  Only forced players \emph{must} advance on a bunt.  For example, a player on 3rd base doesn't have to attempt to advance to home if there is no player on 1st or no player on 2nd.
+
+\subsubsection{Hit-and-Run}
+When using hit-and-run, a power roll of 0 is a single, baserunners advance an extra base on hits and advance one base on a ground out (a contact roll of one).  But on a strikeout (a contact roll of 0) then each baserunner must make a speed check on the base they are advancing to.  If the speed check is successful they are safe at that base, but if they fail they are out.
+
+\subsubsection{Swing-for-the-Fences}
+When using swing-for-the-fences, the batter rolls 3 fewer contact dice and 6 extra power dice.
+
+\end{document}

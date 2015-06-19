@@ -1,0 +1,56 @@
+Kickstarter: The Board Game
+===========================
+
+Kickstarter: The Board Game is a game in which players compete to have the most
+successful Kickstarter campaign - from the initial stages of creating the idea,
+all the way through implementing the idea and fulfilling rewards.
+
+The game is broken down into four main phases:
+
+	- Idea Creation/Generation
+	- Campaign Planning
+	- Running Campaign
+	- Project Implementation and Fulfillment
+
+
+Set Up
+------
+Players start with $X and a team of X random characters?
+
+Characters and Team Building
+----------------------------
+There are character cards which have different basic attributes such as 
+willpower, charisma, etc., and special abilities such as programming or
+cooking abilities.  
+
+?? At the beginning of the game, players get X random characters as their
+initial team or set of friends.  Their abilities may shape what kind of project
+the player takes on.   
+
+During the game players can hire additional characters to fill rolls that their
+existing team can't handle.
+
+Idea Creation
+-------------
+Project ideas are created using several decks of cards.
+
+The first deck represents the category, or medium such as: tabletop game, book 
+or movie.
+
+The second deck has themes and topics such as: zombies, cats or feminism.  
+
+A third deck (maybe?) has different project sizes and scales.  For instance a 
+small, medium or large project, which could mean the difference between a short
+or a feature-length film.
+
+A card is chosen from each deck (randomly? picked from a random subset?) to 
+represent the project idea.  For instance, a novel (large-scale book) about 
+cats, or a card game (small-scale tabletop game) about feminism.  
+
+Each category, topic and size card has different attributes, such as 
+difficulty to market, difficulty to implement, and cost.  For example a 
+blockbuster video game might be easy to market but expensive to
+implement, while a short-story could be cheap, but harder to get backers for.
+
+Planning
+--------

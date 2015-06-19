@@ -1,0 +1,7 @@
+Changes since last week's submission:
+
+* Name changed to "Pioneer"
+* Addition of technology research including three new cards
+* Removed Trade and Piracy cards
+* Added Tactical Strike card
+* Random micro-balancing

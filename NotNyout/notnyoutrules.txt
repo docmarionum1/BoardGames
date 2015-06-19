@@ -1,0 +1,62 @@
+Not Nyout
+=========
+
+What started as a friendly Nyout race has turned ugly after RED called BLUE's mother fat - now it's a fight to the death!  You must use your horses to eliminate those of each other player and be the last one standing.
+
+Pieces
+------
+Nyout Board
+16 horses, 4 of each of 4 different colors
+1d4
+1d6
+1d8
+1d10
+
+Starting
+--------
+
+1. Nyout is played on a Nyout board.
+2. Two, three or four players can play.  Each player picks one of the squares labeled N, S, E or W as his home space.  If there are only two players they should start opposite from one another.  
+3. Players roll 1d4 to decide who starts.  The player with the highest roll starts and then players take turns going in a clockwise direction.
+
+A Turn
+------
+4. At the beginning of each turn, the player rolls Xd4 where X is the number of horse groups he controls on the board, plus 1 if he has any horses left in his stable.  (Note: multiple horses joined
+together only count as a single group.)
+5. For each roll, the player may move a horse than many spaces, or summon a new horse up to once per turn.  
+
+Summoning Horses
+----------------
+6.  If a player has any horses left in her stable, she may use one of her rolls to summon a new horse onto the board.  The horse starts counterclockwise of her home space the number of spaces equivilant to the roll of the die used to summon the horse.
+
+Moving Horses
+-------------
+7. The dice throws may be used to move horses a number of spaces equivilant to the number shown on the die.  Multiple die rolls may be used on a single horse.
+8. Horses always move around the outer ring of squares in a counterclockwise direction.
+9. If a horse is sitting on N, S, E or W, it may move onto the center squares.  A horse cannont turn towards the center in the middle of a movement.
+10. Horses may move in any direction while on the center squares.
+11. If a horse must pass an enemy horse, an additional movement is used.  For instance, to move 2 squares, with an enemy in the way, it would take a roll of 3.
+
+Joining Horses
+--------------
+12. If a player's horse lands on the same square as another of his horses, they may be joined into one group.  A group can have up to 4 horses joined together.
+13. Horses groups may be seperated on a player's turn, after they have rolled their dice.
+
+Combat
+------
+12. If a players horse lands on the square as an enemy's horse, it initiates combat.
+13. Combat is determined by dice rolls.  The die rolled by each player is determined by the number of horses in his group:
+
+	1 horse:  d4
+	2 horses: d6
+	3 horses: d8
+	4 horses: d10
+	
+14. The player who initiated combat gets a +2 bonus added to his die roll.
+15. The winner is the player with the higher total number.  If it is a tie, the victory goes to the player who didn't initiate combat.  The loser loses one horse from the horse group that was in
+combat.
+
+Ending the Game
+---------------
+16. The game ends when only a single player has any horses left on the board.
+17. Alternatively, if the game is down to two players, each with a single horse, then 3 full rounds after the last horse was taken the game ends, and the winner is the last player to take a horse.
